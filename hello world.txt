@@ -1,0 +1,12 @@
+fun main(args: Array<String>) {
+    println("Hello World!")
+    println("Hello Kotlin!")
+    println(10-5)
+    println(10.0/8)
+}
+
+output: 
+Hello World!
+Hello Kotlin!
+5
+1.25

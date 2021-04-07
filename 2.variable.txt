@@ -1,0 +1,23 @@
+fun main(args: Array<String>) {
+
+    var myNumber= 100 //int
+    var myDecimal= 1.11 //float
+
+    var myString: String  //variable string
+    myString= "Hello World"
+    myString= "Another World"
+
+    val myAnotherStr= "My constant String Value" //immutable string
+
+    println(myString)
+    println(myNumber)
+    println(myDecimal)
+    println(myAnotherStr)
+
+}
+
+output:
+Another World
+100
+1.11
+My constant String Value

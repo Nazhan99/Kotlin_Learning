@@ -1,0 +1,14 @@
+fun main(args: Array<String>) {
+    //WHEN as Expression
+    val x = 2
+
+    var str:String
+
+    when (x) {
+        0, 1 -> str = "x is 0 or 1"
+        2, 4 -> str = "x is 2 or 4"
+        in 5..20 ->str="x is in range 5 to 20"
+        else ->str= "x value is unknown"
+    }
+    println(str)
+}

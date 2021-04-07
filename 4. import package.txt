@@ -1,0 +1,44 @@
+package:
+
+package com.shreks
+
+class Person {
+    var name: String = ""
+}
+
+
+main:
+import com.shreks.Person
+
+fun main(args: Array<String>) {
+
+
+    var personObj= Person()
+    personObj.name = "Naze"
+
+    print("The name is ${personObj.name}")
+
+}
+
+output:
+The name is Naze
+
+///////////////////////////////
+package com.shreks
+
+class Person(var name:String) {
+    fun display() {
+        print("The name is ${name}")
+    }
+}
+**********
+import com.shreks.Person
+
+fun main(args: Array<String>) {
+
+
+    var personObj= Person("Naze")
+    personObj.display()
+
+}
+
